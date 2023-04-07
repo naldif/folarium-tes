@@ -70,7 +70,7 @@ class PegawaiController extends Controller
     {
         $validator = Validator::make($request->all(), [
             'nama'   => 'required',
-            'jabatan'   => 'required|unique:pegawais,jabatan',
+            'jabatan'   => 'required',
             'status_kontrak' => 'required',
             'email'   => 'required|email',
         ]);

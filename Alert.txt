@@ -1,0 +1,1 @@
+Folder project crud pegawai dan api pegawai tetap harus berada di dalam folder Tes
